@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
+import data from "./data";
+import Card from "./Card";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [projects, setProjects] = useState(data);
+
+    return (
+        <div className="container">
+            <div className="header card-panel">
+                <h1 className="center hide-on-small-only">
+                    green<b>www</b>old
+                </h1>
+                <h2 className="center hide-on-med-and-up">
+                    green
+                    <br />
+                    <b>www</b>
+                    <br />
+                    old
+                </h2>
+            </div>
+            <div id="cards">
+                {projects.map((project) => (
+                    <Card project={project} />
+                ))}
+            </div>
+        </div>
+    );
+};
 
 export default App;
