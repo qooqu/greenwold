@@ -3,8 +3,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-[[redirects]]
-  from = "/liberty-bridge-analysis/"
-  to = "/liberty-bridge-analysis"
-  status = 200
-  force = true

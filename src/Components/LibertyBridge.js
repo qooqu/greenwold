@@ -1,6 +1,11 @@
 import React from "react";
 
 const Home = () => {
+  (function() {
+    if (document.location.href.endsWith('/')) {
+      window.location = document.location.href.slice(0, document.location.href.length - 1)
+    }
+  }())
   return (
     <div className="container">
       <h1 className="center">Liberty Bridge Analysis</h1>
