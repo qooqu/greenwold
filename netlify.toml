@@ -7,3 +7,4 @@
   from = "/liberty-bridge-analysis/"
   to = "/liberty-bridge-analysis"
   status = 200
+  force = true
