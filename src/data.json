@@ -1,0 +1,134 @@
+[
+  {
+    "title": "bubble task",
+    "linkLive": "https://bubbletask.netlify.app/",
+    "linkCode": "https://github.com/qooqu/bubbletask",
+    "description": "simple task tracking for teams",
+    "bullets": [
+      "full stack app, hand coded with node, express, mongo, passport, and react",
+      "front end hosted on netlify with CD from github",
+      "express app hosted on heroku, db hosted on atlas",
+      "heroku might take a minute to warm up"
+    ],
+    "image": "bubble-task-r1.png"
+  },
+  {
+    "title": "bluegrass bass",
+    "linkLive": "https://resonant-parfait-dae359.netlify.app/",
+    "description": "an amazing bass player",
+    "bullets": [
+      "solves the age old problem of who's playing bass",
+      "doesn't drag, rush, or complain",
+      "built with React"
+    ],
+    "image": "bg-bass.png"
+  },
+  {
+    "title": "bouncy",
+    "linkLive": "/bouncy",
+    "description": "a silly game",
+    "bullets": [
+      "started as a flappy bird clone, became its own thing",
+      "built using Phaser"
+    ],
+    "image": "bouncy.png"
+  },
+  {
+    "title": "pickbot",
+    "linkLive": "https://pickbotpick.netlify.app/",
+    "description": "guitar technique visualization tool",
+    "bullets": [
+      "helps explain the mechanics of the picking hand",
+      "built with three.js"
+    ],
+    "image": "pickbot.png"
+  },
+  {
+    "title": "random gallery",
+    "linkLive": "https://wordpress.org/plugins/random-gallery/",
+    "linkCode": "https://plugins.trac.wordpress.org/browser/random-gallery/trunk/random-gallery.php",
+    "description": "published WP plugin",
+    "bullets": [
+      "displays a random subset of photos from a list",
+      "built for my site, but it has 200+ users with no marketing"
+    ],
+    "image": "random-gallery.png"
+  },
+  {
+    "title": "the odin project",
+    "linkLive": "https://www.theodinproject.com/",
+    "linkCode": "https://github.com/qooqu/top",
+    "description": "full stack JS curriculum - completed",
+    "bullets": [
+      "open source curriculum",
+      "html, css, js, react, node, express, mongo"
+    ],
+    "image": "top.png"
+  },
+  {
+    "title": "Hack for LA contributor",
+    "linkLive": "https://www.hackforla.org/",
+    "linkCode": "https://github.com/qooqu/expunge-assist",
+    "description": "LA branch of Code for America",
+    "bullets": [
+      "member of Expunge Assist dev team",
+      "helping people with criminal records accomplish record clearance",
+      "built with React and TypeScript"
+    ],
+    "image": "hfla.png"
+  },
+  {
+    "title": "redwoodjs contributor",
+    "linkLive": "https://redwoodjs.com/",
+    "description": "OSS project: Rails for the Jamstack",
+    "bullets": [
+      "successfully submitted two PRs for technical issues: <a href='https://github.com/redwoodjs/redwood/pull/2081'>1</a>, <a href='https://github.com/redwoodjs/redwood/pull/2278'>2</a>",
+      "had a hard time understanding the contrib guide, so I re-wrote it, and successfully submitted another <a href='https://github.com/redwoodjs/redwood/pull/2084'>PR</a>"
+    ],
+    "image": "redwood.png"
+  },
+  {
+    "title": "@therealbizman",
+    "linkCode": "https://github.com/qooqu/business-man",
+    "description": "high powered business man / bot who used to tweet out all his great startup ideas",
+    "bullets": [
+      "It's like The Hartford Financial Services Group, but for Collecting Hats.",
+      "It's like Northwestern Mutual Life Insurance Company, Inc., but for Zumba.",
+      "It's like Ally Financial, but for Shark Fishing.",
+      "It's like Devon Energy Corporation, but for Candle Making."
+    ],
+    "image": "therealbizman.png"
+  },
+  {
+    "title": "upcoming robot",
+    "linkCode": "https://github.com/qooqu/upcoming-robot",
+    "description": "landing page for a friend's business",
+    "bullets": [
+      "web toy meant to be reminiscent of lidar",
+      "work in progress",
+      "diy particle system in vanilla js"
+    ],
+    "image": "upcoming-robot.png"
+  },
+  {
+    "title": "project bag",
+    "description": "planning tool for knitting projects",
+    "bullets": [
+      "allows for color visualization before committing to a project",
+      "built with camanjs, pickr, and materialize-css"
+    ],
+    "image": "project-bag.png"
+  },
+  {
+    "title": "bridge consulting site",
+    "description": "former WP site for my structural engineering work",
+    "bullets": ["customized child theme", "also designed the logo"],
+    "image": "greenwold.png"
+  },
+  {
+    "title": "greenwwwold",
+    "description": "this page",
+    "bullets": ["a little web portfolio", "next, tailwind, and netlify"],
+    "image": "greenwwwold.png"
+  }
+]
