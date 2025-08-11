@@ -18,10 +18,21 @@
     "description": "an amazing bass player",
     "bullets": [
       "solves the age old problem of who's playing bass",
-      "doesn't drag, rush, or complain",
+      "doesn't rush, drag, or get sore fingers",
       "built with React"
     ],
     "image": "bg-bass.png"
+  },
+  {
+    "title": "random gallery",
+    "linkLive": "https://wordpress.org/plugins/random-gallery/",
+    "linkCode": "https://plugins.trac.wordpress.org/browser/random-gallery/trunk/random-gallery.php",
+    "description": "published WP plugin",
+    "bullets": [
+      "displays a random subset of photos from a list",
+      "built for a friend's site, but it has 200+ users with no marketing"
+    ],
+    "image": "random-gallery.png"
   },
   {
     "title": "bouncy",
@@ -42,17 +53,6 @@
       "built with three.js"
     ],
     "image": "pickbot.png"
-  },
-  {
-    "title": "random gallery",
-    "linkLive": "https://wordpress.org/plugins/random-gallery/",
-    "linkCode": "https://plugins.trac.wordpress.org/browser/random-gallery/trunk/random-gallery.php",
-    "description": "published WP plugin",
-    "bullets": [
-      "displays a random subset of photos from a list",
-      "built for my site, but it has 200+ users with no marketing"
-    ],
-    "image": "random-gallery.png"
   },
   {
     "title": "the odin project",
