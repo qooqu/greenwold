@@ -1,46 +1,61 @@
-# Astro Starter Kit: Basics
+# greenwwwold
 
-```sh
-npm create astro@latest -- --template basics
+A little web portfolio. Built with Astro, React, and Tailwind, deployed on Netlify.
+
+## Development
+
+Requires Node 22.12 or newer.
+
+| Command           | Action                                  |
+| :---------------- | :-------------------------------------- |
+| `npm install`     | Install dependencies                    |
+| `npm run dev`     | Start the dev server at `localhost:4321` |
+| `npm run build`   | Build the site to `./dist/`             |
+| `npm run preview` | Preview the build locally               |
+
+## Adding a project
+
+Projects live in `src/data.json`. Each entry looks like:
+
+```json
+{
+  "title": "the odin project",
+  "linkLive": "https://www.theodinproject.com/",
+  "linkCode": "https://github.com/qooqu/top",
+  "description": "full stack JS curriculum - completed",
+  "bullets": ["open source curriculum", "html, css, js, react, node, express, mongo"],
+  "image": "top.png"
+}
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- `title` and `description` are required. Everything else is optional.
+- `linkLive` is a full URL or a site path like `/bouncy`. `linkCode` must be a full URL.
+- `image` is a filename in `public/images/`.
+- `bullets` may contain HTML, e.g. links.
 
-## 🚀 Project Structure
+Cards render in the order they appear in the file.
 
-Inside of your Astro project, you'll see the following folders and files:
+The data is validated by the schema in `src/content.config.js`. A missing field, unknown key,
+bad link, missing image, or JSON syntax error fails the build with a message naming the entry.
+To add a new field, add it to the schema first.
+
+## Structure
 
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+src/
+├── content.config.js   schema + loader for data.json
+├── data.json           project list
+├── components/         React components (project cards, page bodies)
+├── layouts/Layout.astro
+├── pages/
+│   ├── index.astro                    project list
+│   ├── bouncy.astro                   embedded game
+│   └── liberty-bridge-analysis.astro  write-up
+└── styles/global.css   Tailwind theme (Nord palette, Raleway)
+public/images/          project screenshots
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Deployment
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Hosted on Netlify. Build settings and the Node version are in `netlify.toml`.
+Analytics via GoatCounter.

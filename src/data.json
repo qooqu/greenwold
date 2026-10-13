@@ -1,18 +1,5 @@
 [
   {
-    "title": "bubble task",
-    "linkLive": "https://bubbletask.netlify.app/",
-    "linkCode": "https://github.com/qooqu/bubbletask",
-    "description": "simple task tracking for teams",
-    "bullets": [
-      "full stack app, hand coded with node, express, mongo, passport, and react",
-      "front end hosted on netlify with CD from github",
-      "express app hosted on heroku, db hosted on atlas",
-      "heroku might take a minute to warm up"
-    ],
-    "image": "bubble-task-r1.png"
-  },
-  {
     "title": "bluegrass bass",
     "linkLive": "https://resonant-parfait-dae359.netlify.app/",
     "description": "an amazing bass player",
@@ -27,12 +14,32 @@
     "title": "random gallery",
     "linkLive": "https://wordpress.org/plugins/random-gallery/",
     "linkCode": "https://plugins.trac.wordpress.org/browser/random-gallery/trunk/random-gallery.php",
-    "description": "published WP plugin",
+    "description": "WordPress plugin",
     "bullets": [
       "displays a random subset of photos from a list",
       "built for a friend's site, but it has 200+ users with no marketing"
     ],
     "image": "random-gallery.png"
+  },
+  {
+    "title": "greenwwwold",
+    "linkCode": "https://github.com/qooqu/greenwold",
+    "description": "this page",
+    "bullets": ["a little web portfolio", "astro, tailwind, and netlify"],
+    "image": "greenwwwold.png"
+  },
+  {
+    "title": "bubble task",
+    "linkLive": "https://bubbletask.netlify.app/",
+    "linkCode": "https://github.com/qooqu/bubbletask",
+    "description": "simple task tracking for teams",
+    "bullets": [
+      "full stack app, hand coded with node, express, mongo, passport, and react",
+      "front end hosted on netlify with CD from github",
+      "express app hosted on heroku*, db hosted on atlas",
+      "* heroku killed this app. stay tuned."
+    ],
+    "image": "bubble-task-r1.png"
   },
   {
     "title": "bouncy",
@@ -124,11 +131,5 @@
     "description": "former WP site for my structural engineering work",
     "bullets": ["customized child theme", "also designed the logo"],
     "image": "greenwold.png"
-  },
-  {
-    "title": "greenwwwold",
-    "description": "this page",
-    "bullets": ["a little web portfolio", "astro, tailwind, and netlify"],
-    "image": "greenwwwold.png"
   }
 ]
