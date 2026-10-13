@@ -15,7 +15,7 @@ export default function ProjectCard({
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl border border-line bg-card transition-colors hover:border-line-strong">
       {image && (
-        <div className="flex aspect-16/10 items-center justify-center bg-well p-7">
+        <div className="relative aspect-16/10 bg-well">
           <ProjectImage image={image} alt={`${title} screenshot`} href={linkLive} />
         </div>
       )}
