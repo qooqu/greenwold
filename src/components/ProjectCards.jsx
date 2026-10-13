@@ -1,10 +1,9 @@
-import data from '../data.json';
 import ProjectCard from './ProjectCard.jsx';
 
-export default function ProjectCards() {
+export default function ProjectCards({ projects }) {
   return (
     <div className="space-y-4">
-      {data.map((p, i) => (
+      {projects.map((p, i) => (
         <ProjectCard key={i} {...p} />
       ))}
     </div>
