@@ -7,8 +7,16 @@ const projects = (await getCollection('projects')).map((entry) => entry.data);
 ---
 
 <Layout>
-  <main class="max-w-5xl mx-auto px-6 sm:px-8 pb-10">
-    <h1 class="text-5xl sm:text-6xl tracking-normal sm:tracking-wide text-center my-4 bg-card p-8"><span class="block sm:inline">green</span><span class="block sm:inline font-semibold">www</span><span class="block sm:inline">old</span></h1>
+  <header class="max-w-6xl mx-auto px-5 sm:px-8 pt-24 pb-12">
+    <div class="flex flex-wrap justify-between items-end gap-6 pb-12 border-b border-line">
+      <h1 class="m-0 text-[clamp(48px,11vw,136px)] font-normal leading-[0.9] tracking-[-0.045em]">green<span class="font-extrabold text-accent">www</span>old</h1>
+      <div class="flex flex-col gap-1.5 pb-2 font-mono text-sm text-muted">
+        <span>a little web portfolio</span>
+        <span>{projects.length} projects</span>
+      </div>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto px-5 sm:px-8 pb-30">
     <ProjectCards projects={projects} />
   </main>
 </Layout>
