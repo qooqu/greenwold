@@ -128,7 +128,7 @@
   {
     "title": "greenwwwold",
     "description": "this page",
-    "bullets": ["a little web portfolio", "next, tailwind, and netlify"],
+    "bullets": ["a little web portfolio", "astro, tailwind, and netlify"],
     "image": "greenwwwold.png"
   }
 ]
