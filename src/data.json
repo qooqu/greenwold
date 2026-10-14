@@ -1,7 +1,7 @@
 [
   {
     "title": "bluegrass bass",
-    "linkLive": "https://resonant-parfait-dae359.netlify.app/",
+    "linkLive": "https://bass.greenwold.com/",
     "linkCode": "https://github.com/qooqu/bass",
     "description": "an amazing bass player",
     "bullets": [
@@ -31,7 +31,7 @@
   },
   {
     "title": "bubble task",
-    "linkLive": "https://bubbletask.netlify.app/",
+    "linkLive": "https://bubbletask.greenwold.com/",
     "linkCode": "https://github.com/qooqu/bubbletask",
     "description": "simple task tracking for teams",
     "bullets": [
@@ -54,7 +54,7 @@
   },
   {
     "title": "pickbot",
-    "linkLive": "https://pickbotpick.netlify.app/",
+    "linkLive": "https://pickbot.greenwold.com/",
     "description": "guitar technique visualization tool",
     "bullets": [
       "helps explain the mechanics of the picking hand",
