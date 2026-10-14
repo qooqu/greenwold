@@ -6,9 +6,9 @@
     "bullets": [
       "solves the age old problem of who's playing bass",
       "doesn't rush, drag, or get sore fingers",
-      "built with React"
+      "astro, tailwind, and netlify"
     ],
-    "image": "bg-bass.png"
+    "image": "bg-bass-r1.png"
   },
   {
     "title": "random gallery",
