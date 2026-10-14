@@ -2,8 +2,15 @@
 import ProjectCards from '../components/ProjectCards.jsx';
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
 
-const projects = (await getCollection('projects')).map((entry) => entry.data);
+// ProjectImage is a React component and can't use <Image>, so pass it the optimized URL
+const projects = await Promise.all(
+  (await getCollection('projects')).map(async ({ data }) => ({
+    ...data,
+    image: data.image && (await getImage({ src: data.image, format: 'webp' })).src,
+  })),
+);
 ---
 
 <Layout>

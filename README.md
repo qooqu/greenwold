@@ -30,7 +30,7 @@ Projects live in `src/data.json`. Each entry looks like:
 
 - `title` and `description` are required. Everything else is optional.
 - `linkLive` is a full URL or a site path like `/bouncy`. `linkCode` must be a full URL.
-- `image` is a filename in `public/images/`.
+- `image` is a filename in `src/assets/projects/`. It's converted to WebP at build time.
 - `bullets` may contain HTML, e.g. links.
 
 Cards render in the order they appear in the file.
@@ -45,6 +45,7 @@ To add a new field, add it to the schema first.
 src/
 ├── content.config.js   schema + loader for data.json
 ├── data.json           project list
+├── assets/projects/    project screenshots
 ├── components/         React components (project cards, page bodies)
 ├── layouts/Layout.astro
 ├── pages/
@@ -52,7 +53,6 @@ src/
 │   ├── bouncy.astro                   embedded game
 │   └── liberty-bridge-analysis.astro  write-up
 └── styles/global.css   Tailwind theme (Nord palette, Raleway)
-public/images/          project screenshots
 ```
 
 ## Deployment

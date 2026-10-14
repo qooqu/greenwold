@@ -9,7 +9,7 @@
       "doesn't rush, drag, or get sore fingers",
       "astro, tailwind, and netlify"
     ],
-    "image": "bg-bass-r1.png"
+    "image": "bg-bass.png"
   },
   {
     "title": "random gallery",
@@ -27,7 +27,7 @@
     "linkCode": "https://github.com/qooqu/greenwold",
     "description": "this page",
     "bullets": ["a little web portfolio", "astro, tailwind, and netlify"],
-    "image": "greenwwwold-r1.png"
+    "image": "greenwwwold.png"
   },
   {
     "title": "bubble task",
@@ -40,7 +40,7 @@
       "express app hosted on heroku*, db hosted on atlas",
       "* heroku killed this app. stay tuned."
     ],
-    "image": "bubble-task-r1.png"
+    "image": "bubble-task.png"
   },
   {
     "title": "bouncy",
