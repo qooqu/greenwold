@@ -2,6 +2,7 @@
   {
     "title": "bluegrass bass",
     "linkLive": "https://resonant-parfait-dae359.netlify.app/",
+    "linkCode": "https://github.com/qooqu/bass",
     "description": "an amazing bass player",
     "bullets": [
       "solves the age old problem of who's playing bass",
@@ -26,7 +27,7 @@
     "linkCode": "https://github.com/qooqu/greenwold",
     "description": "this page",
     "bullets": ["a little web portfolio", "astro, tailwind, and netlify"],
-    "image": "greenwwwold.png"
+    "image": "greenwwwold-r1.png"
   },
   {
     "title": "bubble task",
